@@ -1,0 +1,82 @@
+<div class="wrapper wrapper-content animated fadeInRight container">
+
+    <div class="row col-md-9">
+        <div class="col-md-4" ng-repeat="item in items">
+            <div class="ibox">
+                <div class="ibox-content product-box">
+
+                    <div class="product-imitation">
+                        [ INFO ]
+                    </div>
+                    <div class="product-desc">
+                        <span class="product-price">
+                                                R$ {{item.preco}}
+                                            </span>
+                        <small class="text-muted">{{item.categoria}}</small>
+                        <a href="#" class="product-name"> {{item.nome}}</a>
+
+
+
+                        <div class="small m-t-xs">
+                            {{item.descricao}}
+                        </div>
+                        <div class="m-t text-righ">
+
+                            <a href="#" class="btn btn-xs btn-outline btn-primary" ng-click="adicionar(item)" ui-sref="index.loja"><i class="fa fa-cart-plus"></i> Adicionar ao carrinho </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <div class="col-lg-3">
+        <div class="ibox ">
+            <div class="ibox-title">
+                <h5>Carrinho</h5>
+                <span class="label label-warning-light float-right" ng-show="quantidade > 0">{{quantidade}} Itens</span>
+            </div>
+            <div class="ibox-content">
+
+                <div>
+                    <div class="feed-activity-list" ng-repeat="itemComprado in itemComprados track by $index">
+
+                        <div class="feed-element">
+                            <strong>{{itemComprado.nome}}</strong>
+                            <br> R$ {{itemComprado.preco}}
+                        </div>
+
+                    </div>
+
+                    <div class="feed-activity-list">
+                        <strong>TOTAL: R${{total}}</strong><br>
+                    </div>
+
+
+                    <button class="btn btn-primary btn-block m-t"><i class="fa fa-check"></i> Concluir compra</button>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
