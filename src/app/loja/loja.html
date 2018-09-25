@@ -4,9 +4,8 @@
         <div class="col-md-4" ng-repeat="item in items">
             <div class="ibox">
                 <div class="ibox-content product-box">
-
-                    <div class="product-imitation">
-                        [ INFO ]
+                    <div>
+                        <img style="width: 100%;" src="{{item.url}}" alt="">
                     </div>
                     <div class="product-desc">
                         <span class="product-price">
@@ -57,7 +56,7 @@
                     </div>
 
 
-                    <button class="btn btn-primary btn-block m-t"><i class="fa fa-check"></i> Concluir compra</button>
+                    <button class="btn btn-primary btn-block m-t" ui-sref="index.minor"><i class="fa fa-check"></i> Concluir compra</button>
 
                 </div>
 
@@ -65,18 +64,5 @@
         </div>
 
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </div>

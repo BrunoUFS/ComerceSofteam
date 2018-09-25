@@ -1,0 +1,66 @@
+{
+    "products": [
+        {
+            "preco": 50,
+            "id": 1,
+            "nome": "Mouse",
+            "url": "https://images5.kabum.com.br/produtos/fotos/47805/47805_index_g.jpg",
+            "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+        },
+        {
+            "preco": 70,
+            "id": 2,
+            "nome": "Teclado",
+            "url": "https://http2.mlstatic.com/D_Q_NP_836581-MLB27264911076_042018-Q.jpg",
+            "thumbnailUrl": "https://via.placeholder.com/150/771796"
+        },
+        {
+            "preco": 10,
+            "id": 3,
+            "nome": "Vassoura",
+            "url": "https://b2bnaweb.vteximg.com.br/arquivos/ids/221376-1000-1000/image-c2c3643371964a5a8b114a79280f7ac5.jpg?v=635955614654300000",
+            "thumbnailUrl": "https://via.placeholder.com/150/24f355"
+        },
+        {
+            "preco": 4,
+            "id": 4,
+            "nome": "Banana",
+            "url": "https://mambo.vteximg.com.br/arquivos/ids/188636/131506.jpg?v=635920946752830000",
+            "thumbnailUrl": "https://via.placeholder.com/150/d32776"
+        },
+        {
+            "preco": 2,
+            "id": 5,
+            "nome": "Dipiroca",
+            "url": "https://1.bp.blogspot.com/-fUDqGObobWc/Ve8sicqfrjI/AAAAAAABjK4/-PeOlcjKe2Q/s1600/%252C%252C%252C%252C%252C%252C.%252C%252C%252C%252C%252C%252C%252C%252C%252C.%252C.%252C%252C.%252C%252C7....%252C.jpg",
+            "thumbnailUrl": "https://via.placeholder.com/150/f66b97"
+        },
+        {
+            "preco": 6,
+            "id": 6,
+            "nome": "Rodo",
+            "url": "https://staples.vteximg.com.br/arquivos/ids/196700-1000-1000/LIMXXRO60.jpg?v=635236850903700000",
+            "thumbnailUrl": "https://via.placeholder.com/150/56a8c2"
+        },
+        {
+            "preco": 3,
+            "id": 7,
+            "nome": "Aspirina",
+            "url": "https://media.netfarma.com.br/produtos/aspirina-microativa-500mg-20-comprimidos_zoom.jpg",
+            "thumbnailUrl": "https://via.placeholder.com/150/b0f7cc"
+        },
+        {
+            "preco": 8,
+            "id": 8,
+            "nome": "Melancia",
+            "url": "https://www.deliveryextra.com.br/img/uploads/1/502/451502.jpg?type=product",
+            "thumbnailUrl": "https://via.placeholder.com/150/54176f"
+        }
+    ],
+    "user": [
+        {
+            "name": "Bruno Rodrigues",
+            "image": "https://plus.google.com/_/focus/photos/public/AIbEiAIAAABECNXkwMW81JmTqgEiC3ZjYXJkX3Bob3RvKihiMzcxYTFjNTJjNWVkNjIyMGU4ODEwZDg3N2UyNjdiZWUyODVhNzE3MAFPGHQ9_FxWLt9QoPkkqm6x-ozCVQ?sz=128"
+        }
+    ]
+}

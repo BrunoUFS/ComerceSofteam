@@ -5,7 +5,10 @@
 
                 <div class="profile-element" uib-dropdown>
                     <a uib-dropdown-toggle="" href>
-                            <span class="clear">
+                            <span class="clear"> 
+                                    <span class="block m-t-xs">
+                                        <img style="width: 50px;" class="img-circle" src="{{main.userImage}}">
+                                    </span>
                                 <span class="block m-t-xs">
                                     <strong class="font-bold">{{main.userName}}</strong>
                              </span>
@@ -23,13 +26,13 @@
             </li>
 
             <li ui-sref-active="active">
-                <a ui-sref="index.main"><i class="fa fa-laptop"></i> <span class="nav-label">Main page</span> </a>
+                <a ui-sref="index.main"><i class="fa fa-home"></i> <span class="nav-label">Main page</span> </a>
             </li>
             <li ui-sref-active="active">
-                <a ui-sref="index.minor"><i class="fa fa-desktop"></i> <span class="nav-label">Minor page</span></a>
+                <a ui-sref="index.loja"><i class="fa fa-cart-arrow-down"></i> <span class="nav-label">Loja</span></a>
             </li>
             <li ui-sref-active="active">
-                <a ui-sref="index.loja"><i class="fa fa-money"></i> <span class="nav-label">Loja</span></a>
+                <a ui-sref="index.minor"><i class="fa fa-money"></i> <span class="nav-label">Pagamento</span></a>
             </li>
         </ul>
 

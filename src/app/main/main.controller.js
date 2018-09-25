@@ -1,12 +1,22 @@
 'use strict';
 
 angular.module('inspinia')
-  .controller('MainController', function () {
+  .controller('MainController', function ($http) {
 
     var vm = this;
 
-    vm.testando = 'Ooooooi';
-    vm.helloText = 'Welcome in INSPINIA Gulp SeedProject';
-    vm.descriptionText = 'It is an application skeleton for a typical AngularJS web app. You can use it to quickly bootstrap your angular webapp projects.';
+    vm.userName = "";
+    vm.userImage = "";
 
+    $http({
+      method: 'GET',
+      url: 'http://localhost:3004/user'
+    }).then(function successCallback(response) {
+        vm.userName = response.data[0].name;
+        vm.userImage = response.data[0].image;
+        //console.log(response.data[0].name);
+      }, function errorCallback(response) {
+        console.log("Erro");
+      });
+    
   });
